@@ -19,7 +19,7 @@
             <li>Home</li>
             <li>Sobre</li>
             <li>Footer</li>
-            <li href="https://github.com/PietroFDEV" target="_blank">GitHub</li>
+            <li href="https://github.com/PietroFDEV" target="_blank"> <i class="fab fa-github"></i> GitHub</li>
         </ul>
     </nav>
 </header>
@@ -32,9 +32,57 @@
             <p>Portfólio simples para dar uma olhada em algumas coisas que posso fazer por você. E por favor não encomode esse carinha ==>
                  <a class="carinha"><b onmouseover="piscar()" onmouseout="volta()" id="pisca">O</b>_<b onmouseover="piscar2()" onmouseout="volta2()" id="pisca2">O</b></a></p>
         </div>
+        <div class="sliders">
+            <ul class="sliderA">
+                <img class="img-slider" src="https://lh3.googleusercontent.com/proxy/C2s6VksWqklElJCMLucL2phAByy-sNk_8xJziSs5LaHW2nQIslBQQMPOH_vXE5h1c5IofFtDdtVDKBaxydWrBWsUt3FDrOCeDqwogE0">
+                <img class="img-slider" src="https://images.alphacoders.com/943/thumb-1920-943148.jpg">
+                <img class="img-slider" src="https://images.wallpaperscraft.com/image/single/astronaut_ring_neon_156673_1920x1080.jpg">
+            </ul>
+            <ul class="sliderB">
+                <img class="img-sliderB" src="https://lh3.googleusercontent.com/proxy/C2s6VksWqklElJCMLucL2phAByy-sNk_8xJziSs5LaHW2nQIslBQQMPOH_vXE5h1c5IofFtDdtVDKBaxydWrBWsUt3FDrOCeDqwogE0">
+                <img class="img-sliderB" src="https://images.alphacoders.com/943/thumb-1920-943148.jpg">
+                <img class="img-sliderB" src="https://images.wallpaperscraft.com/image/single/astronaut_ring_neon_156673_1920x1080.jpg">
+            </ul>
+        </div>
+        <div class="midle">
+            <div>
+                <h1>PietroFDEV Portfólio</h1>
+                <p>Portfólio simples para dar uma olhada em algumas coisas que posso fazer por você. E por favor não encomode esse carinha ==>
+                    <a class="carinha"><b onmouseover="piscar()" onmouseout="volta()" id="pisca">O</b>_<b onmouseover="piscar2()" onmouseout="volta2()" id="pisca2">O</b></a></p>
+            </div>
+            <div>
+                <h1>PietroFDEV Portfólio</h1>
+                <p>Portfólio simples para dar uma olhada em algumas coisas que posso fazer por você. E por favor não encomode esse carinha ==>
+                    <a class="carinha"><b onmouseover="piscar()" onmouseout="volta()" id="pisca">O</b>_<b onmouseover="piscar2()" onmouseout="volta2()" id="pisca2">O</b></a></p>
+            </div>
+        </div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript" src="/script.js"></script>
+    <script type="text/javascript" src="https://pietrofdev.github.io/Portf-lio/script.js"></script>
+    <script type="text/javascript" src="/fontawesome-free-5.15.4-web/"></script>
+    <script type="text/javascript" src="https://pietrofdev.github.io/Portf-lio/fontawesome-free-5.15.4-web/"></script>
+
+    <script type="text/javascript">
+         $('.sliderA').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.sliderB'
+});
+$('.sliderB').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.sliderA',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true
+});
+		
+    </script>
 </body>
 
-<script type="text/javascript" src="/script.js"></script>
-<script type="text/javascript" src="https://pietrofdev.github.io/Portf-lio/script.js"></script>
+
 </html>

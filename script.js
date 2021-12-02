@@ -10,3 +10,4 @@ function piscar2(){
 function volta2(){
     document.getElementById("pisca2").innerHTML = "O";
 }
+
