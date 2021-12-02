@@ -1,16 +1,29 @@
-/*body{
-    width: auto;
-    height: fit-content;
-    
-    background-image: linear-gradient( #0098f0, #000f94);
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(https://images6.alphacoders.com/101/1014033.jpg);
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: 100%;
-}*/
+    background-size: cover;
+    background-attachment: fixed;
+    top: 10vh;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
 
 
 nav{
     width: 100%;
     height: 10vh;
+    background-image: linear-gradient(20deg, rgb(85, 87, 255),rgb(255, 184, 92));
+    top: 0px;
+    left: 0px;
     padding: 5px;
     display: flex;
     position: fixed;
@@ -19,6 +32,7 @@ nav{
     flex-shrink: 20px;
     justify-content: space-around;
     text-align: justify;
+    z-index: 30;
 }
 
 
@@ -31,11 +45,13 @@ nav{
 }
 .nav-list > li{
     padding: 25px;
+    font-size: 20px;
 }
 .nav-list >li:hover{
     cursor: pointer;
-    transition: .3s ease;
+    transition: .9s ease;
     transform: scale(0.90);
+    color: #fff;
 }
 
 .PietroFDEV{
@@ -44,6 +60,25 @@ nav{
 }
 .PietroFDEV:hover{
     cursor: pointer;
-    transition: .3s ease;
+    transition: .9s ease;
     transform: scale(0.90);
+    color: #fff;
+}
+
+.beginning{
+    color: #fff;
+    margin-top: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-color: rgb(233, 0, 0);
+    border-style: double;
+    border-radius: 30px;
+}
+
+.carinha{
+    background-color: rgb(0, 0, 0);
+    border-radius: 35px;
+    padding: 5px;
 }
